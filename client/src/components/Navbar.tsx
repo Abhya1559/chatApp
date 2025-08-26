@@ -11,7 +11,7 @@ export default function Nav() {
     setTimeout(() => navigate("/login"), 3000);
   };
   const handleRegister = () => {
-    setShowAnimation(true)
+    setShowAnimation(true);
     setTimeout(() => navigate("/register"), 3000);
   };
   return (
@@ -24,7 +24,9 @@ export default function Nav() {
           <div>
             <ul className="flex items-center space-x-8 text-white font-medium">
               <li className="cursor-pointer hover:scale-110">Home</li>
-              <li className="cursor-pointer hover:scale-110">Chat</li>
+              <li className="cursor-pointer hover:scale-110">
+                <a href="/chat">Chat</a>
+              </li>
               <li className="cursor-pointer hover:scale-110">About</li>
             </ul>
           </div>
