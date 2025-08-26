@@ -23,7 +23,9 @@ export default function Nav() {
           </div>
           <div>
             <ul className="flex items-center space-x-8 text-white font-medium">
-              <li className="cursor-pointer hover:scale-110">Home</li>
+              <li className="cursor-pointer hover:scale-110">
+                <a href="/">Home</a>
+              </li>
               <li className="cursor-pointer hover:scale-110">
                 <a href="/chat">Chat</a>
               </li>
