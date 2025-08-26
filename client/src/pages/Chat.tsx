@@ -56,7 +56,7 @@ export default function Chat() {
                       filteredFriends.map((friend, index) => (
                         <div
                           key={index}
-                          className="p-2 bg-gray-700 rounded-lg cursor-pointer hover:bg-gray-200"
+                          className="p-2 bg-gray-700 rounded-lg font-bold cursor-pointer hover:bg-gray-800"
                         >
                           {friend}
                         </div>
