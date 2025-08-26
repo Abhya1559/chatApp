@@ -1,0 +1,49 @@
+# Node.js
+# ========================
+# node_modules directory
+node_modules/
+# Log files
+*.log
+# Yarn files
+yarn-error.log
+.pnp.*
+.yarn/*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.yml
+.yarn/checksums
+.yarn/pnp.cjs
+# npm debug logs
+npm-debug.log*
+.npm/
+
+# Environment variables
+# ========================
+# .env file for environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+# ========================
+# Compiled and temporary files
+dist/
+build/
+coverage/
+
+# IDE and OS files
+# ========================
+# macOS
+.DS_Store
+# Visual Studio Code
+.vscode/
+# IntelliJ IDEA
+.idea/
+# JetBrains
+.idea/
+.vscode/
+# Thumbs.db file
+Thumbs.db

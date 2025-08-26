@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "format":"prettier --write .",
-    "format:check":"prettier --check ."
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "author": "abhyanand",
   "license": "ISC",
